@@ -25,7 +25,7 @@ test:
     - tests
   requires:
     - coverage
-    - ibis-framework
+    - ibis-framework>=1.2
     - pytest
     - pytest-cov
   commands:
